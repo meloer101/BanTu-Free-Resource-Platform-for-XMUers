@@ -5,6 +5,14 @@
 欢迎你的贡献与使用。Welcome your contribution and use!
 
 ---
+## 零、写在开头
+
+如果您是通过链接访问本项目，但是不知道如何使用github和vscode等等可能需要用的工具的话，欢迎使用AI，我们相信您聪明的大脑大概率只需要不到十分钟就能弄懂。
+当然如果您实在不想花费时间在这上面（我们后续会简化流程），也可以直接进入QQ群并说明这是需要我们帮你上传的资料，我们大概率会在一天内帮您将资料上传。
+最后强烈建议您掌握以上所说的工具和内容，after all ，The era of artificial intelligence has arrived，it means a lot .
+
+
+---
 
 ## 一、项目介绍
 
