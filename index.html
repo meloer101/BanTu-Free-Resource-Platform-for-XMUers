@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BanTu - Find Resource For Your Studying In XMU</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a class="nav-logo" href="#home">BanTu</a>
+    <ul class="nav-links">
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#resource">resource</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="nav-btn" id="loginBtn">no login</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <p class="hero-label">XMU · 厦门大学资源开源平台</p>
+    <h1 class="hero-title">BanTu : Find Resource For Your Studying In XMU</h1>
+    <p class="hero-sub">Welcome your contribution and use!</p>
+    <div class="hero-actions">
+      <a href="https://github.com" target="_blank" class="btn-outline">
+        <img src="src/github.png" alt="GitHub" />
+        github
+      </a>
+      <a href="#contact" class="btn-outline">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+        contact
+      </a>
+    </div>
+    <div class="scroll-hint">
+      <div class="scroll-hint-line"></div>
+      scroll
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-side">
+      <div class="flag"></div>
+      <span class="about-side-text">A B O U T</span>
+    </div>
+    <div class="about-content">
+      <h2>About BanTu</h2>
+      <p>
+        BanTu 是一个由厦门大学学生自发维护的开源学习资源聚合平台。我们致力于收集、整理和分享各类课程资料、复习笔记、考试真题与学习参考资料，帮助每一位同学在求学之路上少走弯路。
+      </p>
+      <p>
+        本项目所有资源均由社区成员自愿贡献，欢迎任何在校学生提交 Pull Request 上传你珍藏的学习资料。无论是课程 PPT、手写笔记还是往年试卷，都是对学弟学妹们无价的馈赠。
+      </p>
+      <p>
+        使用说明：你可以直接通过本站检索所需资源，也可以前往我们的 GitHub 仓库浏览完整目录结构。资源按院系与课程分类存放，查找起来十分便捷。
+      </p>
+      <p>
+        贡献指南：若你有优质资料希望分享，请 Fork 项目仓库，将文件按规范放置在对应目录下，提交 PR 并附上简要说明即可。我们会在审核后合并你的贡献，你的名字也将被记录在贡献者名单中。
+      </p>
+    </div>
+  </section>
+
+  <!-- HANDS（左右手紧贴屏幕边缘，中间按钮） -->
+  <div id="resource" class="hands-section">
+    <div class="hand-left-wrap">
+      <img class="hand-img" src="src/left.png" alt="left hand" />
+    </div>
+    <div class="hand-center">
+      <a href="https://github.com" target="_blank" class="hand-btn">Github上有您想要的</a>
+    </div>
+    <div class="hand-right-wrap">
+      <img class="hand-img" src="src/right.png" alt="right hand" />
+    </div>
+  </div>
+
+  <div class="section-divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="contact-en">Contact</p>
+      <h2 class="contact-title">Contact us</h2>
+      <p class="contact-sub">联系我们</p>
+      <p class="contact-desc">
+        如果你对我们的项目感兴趣或想进一步了解，或想交流 AIGC 的日常实践，欢迎通过以下方式联系我们——我们期待与你的每一次相遇。
+      </p>
+      <div class="social-icons">
+        <a href="#" class="social-icon" title="QQ">
+          <img src="src/qq-black.png" alt="QQ" />
+        </a>
+        <a href="https://github.com" target="_blank" class="social-icon" title="GitHub">
+          <img src="src/github.png" alt="GitHub" />
+        </a>
+        <a href="https://github.com" target="_blank" class="social-icon" title="GitHub">
+          <img src="src/wechat2.png" alt="WeChat" />
+        </a>
+      </div>
+      <p class="contact-tagline">欢迎来加我们</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 BanTu · XMU Open Source Community</p>
+    <p>Made with ♥ by contributors</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
